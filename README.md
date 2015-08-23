@@ -7,5 +7,5 @@ You should be able to use the current version of this script, the token lookup w
 With the folowing configuration in your sshd you should be able to use it:
 
 
-AuthorizedKeysCommand /usr/bin/vault_ssh_keys.py
-AuthorizedKeysCommandRunAs nobody
+    AuthorizedKeysCommand /usr/bin/vault_ssh_keys.py
+    AuthorizedKeysCommandRunAs nobody
